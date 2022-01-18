@@ -1,0 +1,50 @@
+.container {
+  padding: 5% 0%;
+  border: red 2px solid;
+}
+
+.print_position {
+  border: orange 2px solid;
+  width: 100%;
+  padding: 0% 2%;
+  margin: 0%;
+}
+
+h2 {
+  margin-bottom: 2%;
+}
+
+p {
+  padding-top: 1%;
+  font-size: 1rem;
+}
+
+#article_to_buy {
+  padding: 0% 20px;
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10%;
+  padding: 2%;
+  background: rgba(252, 252, 252, 0.918);
+}
+
+.poster_border {
+  border: solid white 10px;
+}
+
+.poster_frame {
+  border: solid black 3px;
+}
+
+img {
+  width: 100%;
+}
+
+.button {
+  width: 90%;
+  margin: 0% 5% 5%;
+}
+/*# sourceMappingURL=prints.component.css.map */

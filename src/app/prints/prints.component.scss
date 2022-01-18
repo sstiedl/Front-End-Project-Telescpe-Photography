@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Ffont;
+    src: url(../../arcanum_order/Arcanum_Order.ttf);
+}
+
+.container {
+    padding: 5% 0%;
+ 
+}
+
+.print_position{
+    
+    width: 100%;
+    padding: 0% 2%;
+    margin: 0%;
+}
+
+h2 {
+    font-family: Ffont;
+    font-size: 3rem;
+    margin-bottom: 2%
+}
+
+p{
+    text-align: center;
+    margin: 3% 0%;
+    font-size: 2rem;
+}
+
+#article_to_buy {
+    padding: 0% 20px;
+}
+
+article {
+    
+    border-radius: 5px;
+    margin-bottom: 10%;
+    padding: 0% auto;
+    background: rgba(248, 241, 241, 0.678);
+}
+
+#price {
+    color:khaki;
+    font-weight: bolder;
+    text-shadow: 1px 0px 6px black;
+}
+
+.poster_border{
+    border: solid white 10px;
+}
+
+.poster_frame {
+    border: solid black 3px;
+}
+
+img {
+    width: 100%;
+}
+
+.button {
+    width: 90%;
+    margin: 0% 5% 5%;
+}

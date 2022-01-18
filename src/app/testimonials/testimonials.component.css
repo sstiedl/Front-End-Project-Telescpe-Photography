@@ -1,0 +1,61 @@
+img {
+  width: 100%;
+}
+
+section {
+  margin: 10% 5%;
+}
+
+.container {
+  padding: 5% 0%;
+  border: red 2px solid;
+}
+
+.testi_position {
+  border: orange 2px solid;
+  width: 100%;
+  padding: 0% 2%;
+  margin: 0%;
+}
+
+article {
+  background: rgba(252, 252, 252, 0.918);
+  padding: 10px 20px;
+  margin: 5% 0%;
+}
+
+h1 {
+  margin: 10% 0% 10%;
+  font-size: 5vw;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h6 {
+  margin: 1% 2% 5%;
+  padding: 0% 0% 0.5%;
+  color: #597387;
+  border-bottom: 1px #597387 solid;
+  text-align: right;
+}
+
+#partners img {
+  width: 10vh;
+}
+
+img {
+  width: 40px;
+  border-radius: 20px;
+  margin: 0% 2% 3% 0%;
+}
+
+article div p {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  #partners img {
+    width: 15vh;
+  }
+}
+/*# sourceMappingURL=testimonials.component.css.map */

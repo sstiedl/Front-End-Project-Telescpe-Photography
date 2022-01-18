@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.hero-img {
+  height: 80vh;
+  background: url("https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500ge") no-repeat center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.hero-text {
+  color: #f7dcbb;
+  position: absolute;
+  top: 20vh;
+  left: 10%;
+  background-color: rgba(245, 245, 245, 0.001);
+  font-weight: 800;
+}
+
+/* some extra styling */
+.img-description {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 11, 20, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .2s, visibility .2s;
+  transition: opacity .2s, visibility .2s;
+}
+
+.butn {
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 14px 28px;
+  font-size: auto;
+  cursor: pointer;
+}
+
+.default {
+  border-color: #000000;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+.cc {
+  border: red solid;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+  .res-lg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .img-wrap {
+    position: relative;
+    height: 30%;
+    width: 30%;
+  }
+  .img-wrap:hover .img-description {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .res-md-sm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    place-items: center;
+    border: blue solid;
+  }
+  a img {
+    border: red solid;
+    width: 300px !important;
+  }
+}
+/*# sourceMappingURL=portfolio.component.css.map */

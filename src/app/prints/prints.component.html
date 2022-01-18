@@ -1,0 +1,17 @@
+<section class="container m-auto">
+<div class="print_position">
+<h2>Buy Prints</h2>
+<div class=" row m-auto">
+    <div id="article_to_buy" *ngFor="let print of prints" class="col-lg-4 col-md-6 col-sm-12">
+    <article>
+        <div class="poster_frame mb-0">
+            <img src="{{print.img}}" class="img-fluid w-100 poster_border" alt="">
+        </div>
+        <p class="mt-3 mb-0 fst-italic fs-4">{{print.title}}</p>
+        <p  class="fw-bolder mt-1 mb-5 text-center fs-6"> {{print.price | currency:'EUR':'symbol'}}</p>
+        <p class="btn btn-outline-dark button fw-bolder fs-6 py-0" (click)="addToCart(print)">Buy</p>
+    </article>
+    </div>  
+</div>
+</div>
+</section>

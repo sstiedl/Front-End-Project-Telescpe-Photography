@@ -1,0 +1,80 @@
+.container {
+  padding: 5% 0%;
+  border: red 2px solid;
+}
+
+.bio_position {
+  border: orange 2px solid;
+  width: 100%;
+  padding: 0% 2%;
+  margin: 0%;
+}
+
+img {
+  width: 40%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bio_subtitle {
+  font-weight: bold;
+}
+
+.paragraph {
+  margin: 0% 0% 5% 10%;
+}
+
+.awards {
+  margin: 5% 0% 10%;
+}
+
+h3 {
+  margin: 0% 0% 3%;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: green solid;
+  background: rgba(252, 252, 252, 0.918);
+}
+
+.round {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: blue solid;
+  border-radius: 5%;
+}
+
+.list {
+  border: yellow solid;
+}
+
+@media screen and (max-width: 992px) {
+  .round {
+    border: blue solid;
+    border-radius: 5%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    max-width: 100vw;
+  }
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background: rgba(252, 252, 252, 0.918);
+  }
+}
+/*# sourceMappingURL=bio.component.css.map */
